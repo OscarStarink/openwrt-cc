@@ -57,12 +57,6 @@ static struct gpio_led gl_ar150_leds_gpio[] __initdata = {
 		.active_low = 0,
  		.default_state = 1,
 	},
-	{
-		.name = "gl_ar150:usbpow",
-		.gpio = GL_AR150_GPIO_USB_POW,
-		.active_low = 0,
-		.default_state = 1,
-	},
 };
 
 static struct gpio_keys_button gl_ar150_gpio_keys[] __initdata = {
